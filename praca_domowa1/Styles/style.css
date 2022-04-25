@@ -1,0 +1,44 @@
+:root{
+    --color: rgb(223, 12, 125);
+}
+/*nagłowek*/
+h1{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: var(--color);
+}
+/* zdjecia */
+.cupcake-cointaner{
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    justify-content: center;
+}
+/* wyswietlanie czasu */
+#time{
+    display: flex;
+    justify-content: center;
+    color: var(--color);
+}
+/* parametry zdjecia */
+#cupcake{
+    width: 25vw;
+    margin-left: 15px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+/* wyswietlany link */
+.link-subpage{
+    margin-top: 10px;
+    color: var(--color);
+}
+/* tło */
+body{
+    background-color: rgb(243, 225, 236);
+}
+/* wyrozniajacy sie tekst */
+#p1{
+    padding: 10px;
+    color: var(--color);
+}
